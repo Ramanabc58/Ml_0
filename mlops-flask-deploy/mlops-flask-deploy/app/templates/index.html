@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ML Model Prediction</title>
+</head>
+<body>
+    <h1>Enter Features</h1>
+    <form method="POST">
+        <input name="feature1" placeholder="Feature 1" required><br>
+        <input name="feature2" placeholder="Feature 2" required><br>
+        <input name="feature3" placeholder="Feature 3" required><br>
+        <input name="feature4" placeholder="Feature 4" required><br>
+        <input type="submit">
+    </form>
+    {% if prediction is not none %}
+        <h2>Prediction: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>
