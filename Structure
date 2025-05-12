@@ -1,0 +1,12 @@
+mlops-flask-deploy/
+├── model/
+│   ├── train_model.ipynb        # Trains and saves the model
+│   └── model.pkl                # Saved ML model
+├── app/
+│   ├── app.py                   # Flask application
+│   └── templates/
+│       └── index.html           # Basic HTML form for input
+├── requirements.txt             # Required Python packages
+├── README.md                    # Setup instructions for students
+└── .vscode/
+    └── launch.json             # VS Code run config
